@@ -16,18 +16,8 @@
 		"url": "https://SharpIce.top",
 		"email": "SharpIce@SharpIce.top"
 	},
-	"funding": [
-		{
-			"type": "ko-fi",
-			"url": "https://ko-fi.com/SharpIce"
-		},
-		{
-			"type": "ifdian",
-			"url": "https://ifdian.net/@SharpIce"
-		}
-	],
 	"engines": {
-		"node": ">=20"
+		"node": ">=22"
 	},
 	"devEngines": {
 		"runtime": {
@@ -45,10 +35,9 @@
 		"format": "prettier . --write"
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.33.0",
-		"eslint": "^9.33.0",
+		"@eslint/js": "^9.36.0",
+		"eslint": "^9.36.0",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-prettier": "^5.5.4",
 		"prettier": "^3.6.2",
 		"rimraf": "^6.0.1"
 	}

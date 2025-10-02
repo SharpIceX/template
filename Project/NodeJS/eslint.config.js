@@ -1,10 +1,10 @@
 import eslint from '@eslint/js';
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
 	eslint.configs.recommended,
-	eslintPluginPrettierRecommended,
+	eslintConfigPrettier,
 	{
 		languageOptions: {
 			parserOptions: {
@@ -14,7 +14,6 @@ export default [
 		},
 		rules: {
 			eqeqeq: ['error', 'always'],
-			'prettier/prettier': ['off', 'always'],
 		},
 		ignores: ['node_modules'],
 	},
