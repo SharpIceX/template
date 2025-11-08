@@ -1,8 +1,8 @@
 import eslint from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
+export default defineConfig([
 	eslint.configs.recommended,
 	eslintConfigPrettier,
 	{
@@ -13,8 +13,8 @@ export default [
 			},
 		},
 		rules: {
-			eqeqeq: ['error', 'always'],
+			eqeqeq: 'error',
 		},
 		ignores: ['node_modules'],
 	},
-];
+]);

@@ -1,0 +1,49 @@
+{
+	"compilerOptions": {
+		/* 基础配置 */
+		"pretty": true,
+		"allowJs": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"types": ["node"],
+		"lib": ["ESNext"],
+
+		/* 构建 */
+		"sourceMap": true,
+		"declaration": true,
+		"noEmitOnError": true,
+		"inlineSources": true,
+		"declarationMap": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"verbatimModuleSyntax": true,
+		"moduleResolution": "Bundler",
+		"useDefineForClassFields": true,
+
+		/* 检查 */
+		"strict": true,
+		"checkJs": true,
+		"alwaysStrict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"noUnusedParameters": true,
+		"noImplicitOverride": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"noImplicitUseStrict": false,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"useUnknownInCatchVariables": true,
+		"noFallthroughCasesInSwitch": true,
+		"strictPropertyInitialization": true,
+		"forceConsistentCasingInFileNames": true,
+		"noPropertyAccessFromIndexSignature": true
+	},
+	"exclude": ["**/node_modules/**"]
+}

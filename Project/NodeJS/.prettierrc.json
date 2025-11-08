@@ -8,17 +8,22 @@
 	"bracketSpacing": true,
 	"jsxSingleQuote": true,
 	"trailingComma": "all",
-	"arrowParens": "avoid",
+	"arrowParens": "always",
 	"bracketSameLine": true,
 	"proseWrap": "preserve",
+	"objectWrap": "preserve",
+	"checkIgnorePragma": true,
+	"quoteProps": "as-needed",
 	"singleAttributePerLine": false,
 	"vueIndentScriptAndStyle": false,
 	"embeddedLanguageFormatting": "auto",
 	"htmlWhitespaceSensitivity": "strict",
+	"plugins": ["prettier-plugin-toml"],
 	"overrides": [
 		{
-			"files": "*.yml",
+			"files": ["*.yml", "*.yaml"],
 			"options": {
+				"tabWidth": 2,
 				"useTabs": false
 			}
 		},
@@ -26,7 +31,8 @@
 			"files": "*.md",
 			"options": {
 				"tabWidth": 2,
-				"useTabs": false
+				"useTabs": false,
+				"proseWrap": "always"
 			}
 		}
 	]

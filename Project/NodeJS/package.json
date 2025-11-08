@@ -35,10 +35,14 @@
 		"format": "prettier . --write"
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.36.0",
-		"eslint": "^9.36.0",
+		"@eslint/js": "^9.39.1",
+		"@types/node": "^24.10.0",
+		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.8",
+		"jiti": "^2.6.1",
 		"prettier": "^3.6.2",
-		"rimraf": "^6.0.1"
+		"prettier-plugin-toml": "^2.0.6",
+		"rimraf": "^6.1.0",
+		"typescript": "^5.9.3"
 	}
 }
