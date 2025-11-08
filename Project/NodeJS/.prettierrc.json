@@ -21,18 +21,10 @@
 	"plugins": ["prettier-plugin-toml"],
 	"overrides": [
 		{
-			"files": ["*.yml", "*.yaml"],
+			"files": ["*.md", "*.yml", "*.yaml"],
 			"options": {
 				"tabWidth": 2,
 				"useTabs": false
-			}
-		},
-		{
-			"files": "*.md",
-			"options": {
-				"tabWidth": 2,
-				"useTabs": false,
-				"proseWrap": "always"
 			}
 		}
 	]
